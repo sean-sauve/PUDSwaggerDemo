@@ -45,5 +45,5 @@ $NewPUDApiResponseParam = @{
     'UseResponseBodyWrapper' = $true
 }
 $Response = $null
-$Response = New-PUDApiResponse @NewPUDApiResponseParam
+$Response = New-PUDDemoApiResponse @NewPUDApiResponseParam
 $Response.Response
